@@ -1,0 +1,15 @@
+{
+    "name": "instagram-api/client",
+    "autoload": {
+        "psr-4": {
+            "InstagramAPI\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}
